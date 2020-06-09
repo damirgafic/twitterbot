@@ -1,6 +1,7 @@
 import tweepy
 import time
 
+# retrieve the following from you're twitter developer account
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
